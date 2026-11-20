@@ -52,3 +52,13 @@ This file records material project instructions and implementation decisions. Gi
 - **Design response:** Replaced the parent-led hero concept with student-only CGI and a fuller, mission-led page sequence: why we are here; who you will meet; proposed AI discovery labs, build challenges and project showcases; community commitments; then a join invitation. The hero action is “Explore activities.” Guardian guidance for participants under 18 remains in the text and participation principles, not in the CGI.
 - **Activity accuracy:** These are proposed activity formats, not confirmed events. Do not publish dates, hosts, partners, outcomes or testimonials until verified. The generated artwork is a CGI concept, not a photograph of actual members or proof of current programmes.
 - **Traceability:** Updated DESIGN_PRINCIPLES.md in commit d1e9721 on design/parent-first-trilingual-community and retained the same open review PR #4. No homepage source or production domain was changed by this documentation update.
+
+
+## 2026-11-20 — Student-first homepage implementation
+
+- **Founder direction:** Build an engaging first page for young people aged 5–20, represent Malaysia’s Chinese, Malay, Indian and other backgrounds, and show young people only in CGI.
+- **Implementation:** Replaced the abstract hero with student-focused CGI; added trilingual English, Mandarin and Malay page content covering the community’s purpose, who will learn together, proposed activities, respectful participation and guardian guidance.
+- **Accuracy and scope:** Activity formats are explicitly proposals with no invented dates or confirmed programme claims. The page does not collect personal data or claim registration/chat is live; it explains that registration will open after the joining and safety processes are ready.
+- **Database and interaction direction discussed:** A proper member experience will require authentication and a database. Recommended evaluating one managed Postgres/Auth/Realtime backend; start with moderated topic discussions and comments, and defer direct messages between minors until safety controls are defined.
+- **Review state:** Committed to the existing design branch and open PR #4 for review. No merge, production deployment, or custom-domain change was performed.
+
