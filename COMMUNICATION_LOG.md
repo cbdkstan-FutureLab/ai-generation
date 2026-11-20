@@ -36,3 +36,11 @@ This file records material project instructions and implementation decisions. Gi
 - **Language update:** Added a three-option language selector, full page copy in all three languages, and saved language preference. Source commit: `2fcabe89cd1e3a407092f64320f7003c5e1aa985`.
 - **Domain check:** Vercel reports the domain is on external MSCHosting nameservers and currently misconfigured for this project; the existing apex A record is `103.7.9.22`. The exact `www` CNAME will be recorded after adding the domain to the Vercel project.
 - **Publishing step:** Merge the approved branch to `main`; if MSCHosting DNS cannot be changed through a connected account, provide Andrew the precise record to add.
+
+
+## 2026-11-20 — Homepage design direction
+
+- **Founder feedback:** The first CGI felt too simple and not exciting enough to attract members; Andrew asked that the design take inspiration from malaysian.ai.
+- **Design response:** Prepared a more energetic concept with a Malaysian skyline and community-learning scene, editorial typography, family activities, project showcases, and event cards. This borrows high-level storytelling patterns only; it does not copy their brand or claim events, testimonials, numbers, or safeguards that are not verified.
+- **Design principle:** Parents and educators are the main entry audience; child participation is adult-guided. English, Simplified Chinese, and Bahasa Melayu remain equally supported. Membership is free; no payment gateway is planned. Verified events and community work should make the page feel active.
+- **GitHub record:** Added DESIGN_PRINCIPLES.md on branch design/parent-first-trilingual-community (commit b4db70b). This is documentation and concept design only; the live homepage and production domain have not been changed. Pull request will carry the review trail.
